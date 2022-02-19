@@ -1,1 +1,1 @@
-web :unicorn feezz.wsgi-Procfile
+web: gunicorn feezz.wsgi --log-file -
